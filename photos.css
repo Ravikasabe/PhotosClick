@@ -1,0 +1,174 @@
+
+/*---------------------------------------------------*/
+
+body{
+  background-image: url("D5.jpg");
+  background-size: cover;
+}
+
+/*---------------------------------------------------*/
+
+.box1{
+  font-family: "Sofia", sans-serif;
+  font-size: x-large;
+  text-align: end;
+}
+
+/*---------------------------------------------------*/
+
+.pg{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: Copperplate, Papyrus, fantasy;  
+  background-color: rgb(146, 211, 219);
+}
+
+/*---------------------------------------------------*/
+
+/*
+.box2{
+  color: black;
+  opacity: 1;
+  text-decoration: none;
+  width: 26%;
+}
+*/
+
+/*---------------------------------------------------*/
+
+.button1{
+  background-color: rgb(255, 255, 255);
+  width: 20%;
+  opacity: 0.8;
+}
+
+/*---------------------------------------------------*/
+
+.L1{
+  margin-top: 2%;
+  margin-bottom: 8%;
+}
+
+/*---------------------------------------------------*/
+
+.box3{
+  margin-top: 40px;
+  color: rgb(180, 180, 180);
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: x-large;
+}
+
+/*---------------------------------------------------*/
+
+.sd {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/*---------------------------------------------------*/
+
+.slide {
+  display: none;
+}
+
+/*---------------------------------------------------*/
+
+.previous, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/*---------------------------------------------------*/
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/*---------------------------------------------------*/
+
+.previous:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/*---------------------------------------------------*/
+
+.caption {
+  
+  color: #ffffff;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 94%;
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+}
+
+/*---------------------------------------------------*/
+
+.numbers {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.5;
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/*---------------------------------------------------*/
+
+.dot {
+  cursor: pointer;
+  height: 4px;
+  width: 20px;
+  margin: 0 2px;
+  background-color: rgb(255, 187, 0);
+  border-style: none;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/*---------------------------------------------------*/
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/*---------------------------------------------------*/
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/*---------------------------------------------------*/
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*---------------------------------------------------*/
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*---------------------------------------------------*/
